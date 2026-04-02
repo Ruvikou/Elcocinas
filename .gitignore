@@ -1,0 +1,79 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# env
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml  # optional si no usas pnpm
+lerna-debug.log*
+
+# system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OS / shell
+*.swp
+*~
+.project
+.idea/
+.vscode/
+*.code-workspace
+*.log
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+*.tscache
+*.mjs
+*.cjs
+
+# React Native / other build artifacts
+.expo/
+web-build/
+coverage/
+.nyc_output/
+coverage/
+
+# test runners
+jest.config.ts.cache
+.vitest/
+playwright-report/
+
+# package locks (elige uno)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# local state
+*.local
+.cache/
+tmp/
+temp/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+
+# Linux
+*~
